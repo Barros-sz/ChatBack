@@ -20,7 +20,7 @@ if sys.platform != "win32":
 load_dotenv()
 
 # Configuração do modelo do Gemini
-MODELO = "gemini-2.5-flash-lite"
+MODELO = "gemini-3.5-flash"
 
 # Carrega o System Prompt do arquivo JSON
 with open("config.json", "r", encoding="utf-8") as f:
